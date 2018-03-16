@@ -1,0 +1,32 @@
+/*{
+    outline: 1px solid red;
+}*/
+ .row{
+    padding: 2%;
+}
+.left-block{
+    background-color: white;
+}
+.submit-button{
+    margin-top: 30px;
+}       
+.space-btwn-box{
+    margin-right: 50px;
+}    
+.title-logo{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.book-image{
+    margin-left: 30%;
+    margin-top: 20%
+}
+.account-box{
+    margin-top: 10%
+}
+.image-size{
+    height: 80%;
+}
+.font-weight-title{
+    font-weight: bold
+}
