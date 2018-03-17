@@ -1,4 +1,7 @@
- .row{
+/*{
+    outline: 1px solid red
+}*/
+.row{
     padding: 2%;
 }
 .left-block{
@@ -63,4 +66,25 @@
 }
 .row-footer{
     background-color: #007bff;
+}
+.table-margin{
+    margin-left: 1em;
+    margin-right: 30em;
+}
+.div-table{
+    padding-left: 1em;
+    padding-right: 3em;
+}
+.heading-align{
+    margin-top: 1em;
+    margin-left: 19em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.all-books-margin{
+    margin-right: 13em;
+}
+.row-header{
+    background-color: #007bff;
+    height: 4em;
 }
