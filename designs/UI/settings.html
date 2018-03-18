@@ -8,8 +8,8 @@
         <title>Hello-Books</title>
     </head>
     <body>
-        <div class="container-fluid">
 
+        <div class="container-fluid">
             <div class="row row-header">
                 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary col-12">
                     <a class="navbar-brand" href="#">Hello-Books</a>
@@ -19,52 +19,40 @@
                                     <a class="nav-link navbar-align all-books-margin" href="dashboard.html">All Books<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item active profile-align">
-                                        <a class="nav-link" href="profile.html">My Account</a>
+                                    <a class="nav-link" href="profile.html">My Account</a>
                                 </li>
                                 <li class="nav-item active navbar-align">
-                                        <a class="nav-link" href="settings.html">Settings <span class="sr-only">(current)</span></a>
-                                    </li>
+                                    <a class="nav-link" href="history.html">History<span class="sr-only">(current)</span></a>
+                                </li>
                                 <li class="nav-item active sing-out-aling">
                                     <a class="nav-link" href="login.html">Sign out</a>
                                 </li>
                             </ul>
                         </div>
-                    </nav>                    
-                </div>
-                <div class="div-table">
-                    <h3 class="heading-align">Borrowing History</h3>
-                    <table class="table table-hover table-margin">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Book</th>
-                                <th scope="col">Author</th>
-                                <th scope="col">Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Fire and Ice</td>
-                                <td>George R.R. Martin</td>
-                                <td> 1/1/2016</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Petals of Blood</td>
-                                <td>Ngugi wa Thiongo</td>
-                                <td>2/2/2017</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Freedom Walk</td>
-                                <td>Nelson Mandela</td>
-                                <td>3/3/2018</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
+                </nav>
+            </div>
+            <div class="row">
+                <form>
+                    <h4 class=font-weight-title>Account Settings</h4>
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input type="text" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full Name">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control col-6" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -73,4 +61,3 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
-
