@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello-Books</title>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row row-header">
+                <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary col-12">
+                    <a class="navbar-brand" href="#">Hello-Books</a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link navbar-align all-books-margin" href="dashboard.html">All Books<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active dropdown profile-drop-down">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        My Account
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="settings.html">Settings</a>
+                                        <a class="dropdown-item" href="history.html">History</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item active sing-out-aling">
+                                    <a class="nav-link" href="login.html">Sign out</a>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+        </div>
+        <div>
+            <h4 class="row borrowed-title">Books Borrowed</h4>
+        </div>
+        <div class="row">
+            <div class="card col-2 card-separate card-height">
+                <img class="card-img-top card-image-size" src="images/Gatsby.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title title-text-size">The Great Gatsby</h5>
+                        <p class="card-text text-feild-size">By F.Scott Fitzgerald</p>
+                        <a href="#" class="btn btn-primary">Return</a>
+                    </div>
+            </div>    
+            <div class="card col-2 card-separate">
+                <img class="card-img-top card-image-size" src="images/mandela.jpg" alt="book image cap">
+                    <div class="card-body">
+                        <h5 class="card-title title-text-size">Fredoom Walk</h5>
+                        <p class="card-text text-feild-size">By Nelson Mandela</p>
+                        <a href="#" class="btn btn-primary">Return</a>
+                    </div>
+            </div>
+            <div class="card col-2 card-separate">
+                <img class="card-img-top card-image-size" src="images/chinua.jpg" alt="Things Fall apart image cap">
+                    <div class="card-body">
+                        <h5 class="card-title title-text-size">Things Fall Apart</h5>
+                        <p class="card-text text-feild-size">By Chinua Achebe.</p>
+                        <a href="#" class="btn btn-primary">Return</a>
+                    </div>
+            </div>
+        </div>
+        
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
+
