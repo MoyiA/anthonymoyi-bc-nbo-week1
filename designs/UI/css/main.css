@@ -1,0 +1,127 @@
+@media screen and (max-width:1095px) {
+    .resized-screen{
+        margin-left: 1em;
+        height: 2em;
+        margin-top: 2em;
+    }
+}
+/* navigation bar styles*/
+.sign-out-aling{
+    margin-left: 5px;
+}
+.profile-align{
+    margin-left: 37em;
+}
+.navbar-align{
+    margin-right: 4px;
+}
+.navbar-authors-align{
+    margin-right: 6em;
+}
+.profile-drop-down{
+    margin-left: 40em;
+}
+.sign-out-admin{
+    margin-left: 57em;
+}
+.row-header{
+    background-color: #007bff;
+    height: 4em;
+}
+.title-logo{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* card styles */
+.card-separate{
+    margin-right: 16px;
+    margin-left: 18px;
+}
+.card-image-size{
+    height: 12em;
+    width: 11em;
+}
+.text-feild-size{
+    font-size: small;
+    height: 1em;
+}
+.title-text-size{
+    font-size: medium;
+    font-weight: 400;
+}
+.empty-card-image{
+    background-color: rgba(128, 128, 128, 0.514);
+    text-align: center;
+}
+/* styles for body */
+.row{
+    padding: 2%;
+}
+.left-block{
+    background-color: white;
+}
+.submit-button{
+    margin-top: 30px;
+}       
+.space-btwn-box{
+    margin-right: 50px;
+}    
+.account-box{
+    margin-top: 2em;
+}
+.font-weight-title{
+    font-weight: bold;
+}
+.table-margin{
+    margin-left: 1em;
+    margin-right: 30em;
+}
+.div-table{
+    padding-left: 1em;
+    padding-right: 3em;
+}
+.heading-align{
+    margin-top: 1em;
+    margin-left: 19em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.all-books-margin{
+    margin-right: 13em;
+}
+.borrowed-title{
+    margin-left: 1em;
+    padding-top: 1em;
+    font-weight: 600;
+}
+.admin-log{
+    text-decoration-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div-admin{
+    background-color: #007bff;
+}
+a{
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.row-settings{
+    padding-left: 25em;
+}
+/* styles for footer */
+.copyright{
+    margin-left: 24em;
+    margin-right: 8em;
+    font-weight: 100;
+    font-style: italic;
+}
+.contact-footer{
+    font-style: italic;
+    font-weight: 100;
+}
+.row-footer{
+    background-color: #007bff;
+}
