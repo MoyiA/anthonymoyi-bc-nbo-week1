@@ -9,6 +9,59 @@
     </head>
     <body>
         <div class="container-fluid">
+            <div class="row row-header">
+                    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary col-12">
+                        <a class="navbar-brand" href="homepage.html">Hello-Books</a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav margin-navbar">
+                                <li class="nav-item active">
+                                    <a class="nav-link navbar-align" href="homepage.html">All Books<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active sign-in-login">
+                                    
+                                        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header text-center">
+                                                        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <form action="dashboard.html">
+                                                        <div class="modal-body mx-3">
+                                                            <div class="md-form mb-5">
+                                                                <i class="fa fa-envelope prefix grey-text"></i>
+                                                                <input type="email" id="defaultForm-email" placeholder="Enter email" class="form-control validate">
+                                                                <label data-error="wrong" data-success="right" for="defaultForm-email">Email Address</label>
+                                                            </div>
+
+                                                            <div class="md-form mb-4">
+                                                                <i class="fa fa-lock prefix grey-text"></i>
+                                                                <input type="password" id="defaultForm-pass" placeholder="Password" class="form-control validate">
+                                                                <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer d-flex justify-content-center">
+                                                            <button class="btn btn-default btn-primary submit-button" value="go to dashboard">Login</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Sign in</a>
+                                        </div>
+                
+                    
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                </div>
             <div class="row">
                 <div class="col-6 left-block space-btwn-box">
                     <h1 class="text-center title-logo align-self-center">Welcome to Hello-Books</h1>
@@ -27,29 +80,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <div>
-                        <form action="dashboard.html">
-                            <h4 class="font-weight-title">Sign in</h4>
-                            <div class="row">
-                                <div class="form-group col-5">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-5">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                                <div>
-                                    <button type="submit" class="btn btn-primary submit-button" value="go to dashboard">Log in</button>
-                                </div>
-                                <div class="div-admin resized-screen">
-                                    <a href="admin.html">
-                                        <h5 class="admin-log">Admin login</h5>
-                                    </a> 
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    
                     <div class="account-box">
                         <form>
                             <h4 class=font-weight-title>Create Account</h4>
@@ -67,7 +98,7 @@
                                     <input type="password" class="form-control col-6" id="exampleInputPassword1" placeholder="Password">
                                 </div>
                                 <div>
-                                    <button type="submit" class="btn btn-primary">Register</button>
+                                    <button type="submit" class="btn btn-primary register-button">Register</button>
                                 </div>
                             </div>
                         </form>

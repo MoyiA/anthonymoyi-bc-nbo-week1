@@ -6,6 +6,9 @@
     }
 }
 /* navigation bar styles*/
+.margin-navbar{
+    margin-top: 23px;
+}
 .sign-out-aling{
     margin-left: 5px;
 }
@@ -29,9 +32,19 @@
     height: 4em;
 }
 .title-logo{
-    padding-top: 1em;
+    padding-top: 0em;
     padding-bottom: 1em;
 }
+.sign-in-login{
+    margin-left: 55em;
+}
+.register-button{
+    margin-left: 1em;
+}
+.sign-out-home{
+    margin-left: 61em;
+}
+
 /* card styles */
 .card-separate{
     margin-right: 16px;
@@ -67,7 +80,7 @@
     margin-right: 50px;
 }    
 .account-box{
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .font-weight-title{
     font-weight: bold;
@@ -110,7 +123,12 @@ a:hover {
 }
 .row-settings{
     padding-left: 25em;
+    height: 31em;
 }
+.div-height{
+    height: 29em;
+}
+
 /* styles for footer */
 .copyright{
     margin-left: 24em;
